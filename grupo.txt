@@ -1,0 +1,2 @@
+#1 Iniciamos con un print de presentacion/saludo
+print("ventas y montos")
