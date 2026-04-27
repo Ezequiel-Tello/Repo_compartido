@@ -7,12 +7,11 @@ cantidad = int(input("¿cuantas ventas queres ingresar?: "))
 ventas = []
 #4 cargamos el vector con los montos
 for i in range(cantidad):
-    monto = float(input(f"ingrese el monto de la venta {i+1}: "))
+    monto = float(input(f"ingrese el monto de la venta {i+1}: $"))
     ventas.append(monto)
 #5 calculamos el total de los montos de cada venta
 total_ventas = 0
 for venta in ventas:
     total_ventas += venta
 #6  mostramos el resultado
-print(f"El total de ventas realizadas es:${total_ventas:.2f}")
-
+print(f"El total de ventas realizadas es: ${total_ventas:.2f}")
