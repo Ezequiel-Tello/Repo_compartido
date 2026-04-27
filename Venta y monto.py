@@ -1,3 +1,4 @@
+
 #1 saludamos con un msj de presentacion
 print("montos y ventas")
 #2 solicitamos la cantidad de ventas
@@ -14,5 +15,4 @@ for venta in ventas:
     total_ventas += venta
 #6  mostramos el resultado
 print(f"El total de ventas realizadas es:${total_ventas:.2f}")
-
 
